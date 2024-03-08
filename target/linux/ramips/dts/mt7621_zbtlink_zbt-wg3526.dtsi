@@ -145,12 +145,12 @@
 
 &switch0 {
 	ports {
-		port@0 {
+		port@4 {
 			status = "okay";
 			label = "lan1";
 		};
 
-		port@1 {
+		port@3 {
 			status = "okay";
 			label = "lan2";
 		};
@@ -160,12 +160,12 @@
 			label = "lan3";
 		};
 
-		port@3 {
+		port@1 {
 			status = "okay";
 			label = "lan4";
 		};
 
-		port@4 {
+		port@0 {
 			status = "okay";
 			label = "wan";
 			nvmem-cells = <&macaddr_factory_e000 1>;
